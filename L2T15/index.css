@@ -1,0 +1,127 @@
+
+body {
+    background: #1C1F22;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    }
+
+
+#about-me {
+    display: grid;
+    }
+
+    #portrait {
+        align: center;
+        height: 200px;
+        opacity: 90%;
+        }
+
+    #about {
+        grid-column: 1/5;
+        grid-row: 1;
+        text-align: left;
+        }
+
+    section {
+        grid-column: 1/2;
+        grid-row: 1;
+        padding: 8px;
+        text-align: center;
+        background: #080D21;
+        border: 2px inset #EFECE6;
+        }
+
+
+    aside {
+        grid-column: 3/5;
+        grid-row: 1;
+        padding: 8px;
+        text-align: left;
+        vertical-align: center;
+        }
+
+
+#we-heading {
+        text-align: left;
+        background: #1C1F22;
+    }
+    #we-details {
+        margin: 10px;
+        text-align: left;
+        }
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    color: #EFECE6;
+    font-weight: normal;
+    }
+
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 28px;
+    font-weight: normal;
+    color: #EFECE6;
+    }
+
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #558B6E;
+    text-align: left;
+    }
+
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color:#8F99A3;
+    }
+
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #8F99A3;
+    }
+
+
+li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #8F99A3;
+    }
+
+
+th {
+    font-weight: normal;
+    text-align: center;
+    color: #8F99A3;
+    }
+
+td {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    }
+
+progress {
+    width: 125px;
+    height: 25px;
+    opacity: 45%;
+    }
+
+
+img {
+    height: 75px;
+    opacity: 75%;
+    }
+
+

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <link href = 'index.css' rel = stylesheet type = "text/css">
 
     <!-- link google fonts -->
@@ -13,247 +14,340 @@
     <!-- link css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <title>Molemo Molefe CV</title>
+    <title>Molemo Molefe</title>
+
 
 </head>
 
 <body>
-    <h1 style="text-align: center;">Molemo Molefe</h1>
-    <div id="about-me">
-        <section>
-            <img id="portrait" src="compressed cv photo.jpg" alt="CV Portrait" height="150">
-            <br>
-            <h4 style="font-family:'Poiret One', cursive; color:#EFECE6;">Junior Python Developer</h4>
-            <h4 style="font-family:'Poiret One', cursive; color:#EFECE6; opacity:80%;">Candidate Architectural Technologist</h4><br>
-            <h3>Contact Details:</h3>
-            <ul>
-                <li><b>Cell: </b>084 545 2751</li>
-                <li><b>Email: </b>mmolefe00@gmail.com</li>
-                <li><b>LinkedIn: </b>...<br><br></li>
-            </ul>
+    <div class="container" id="title">
+        <h1><br>MOLEMO MOLEFE</h1>
+    </div>  <!-- close title -->
 
-            <h3>Education:</h3>
-            <div id="education">
-            <!--unordered list of academic institutions and certificates from them-->
-            <ul>
-                <li>
-                    <b>2018: Trinityhouse High School Little Falls</b><br>
-                     - National Senior Certificate<br><br>
-                </li>
-                <li>
-                    <b>2022: University of Cape Town</b><br>
-                     - Bachelor of Architectural Studies<br><br>
-                </li>
-                <li>
-                    <b>2023: HyperionDev</b><br>
-                     - Software Engineering Bootcamp Certificate<br><br>
-                </li>
-            </ul>
+    <div class="sticky-top" id="cbar">  <!-- sticky top contact bar -->
+        <div class="container" id="get in touch">
+            <br>
+            <!-- link buttons-->
+            <a href="tel:+27845452751" class="btn btn-outline-primary" role="button" target="_blank">Call</a>
+            <a href="mailto:mmolefe00@gmail.com" class="btn btn-outline-primary" role="button" target="_blank">Email</a>
+            <a href="https://linkedin.com/in/molemo-molefe" class="btn btn-outline-primary" role="button" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mmolefe00" class="btn btn-outline-primary" role="button" target="_blank">GitHub</a>
+            <a href="https://zatm.tech/" class="btn btn-outline-primary" role="button" target="_blank">ZATM.tech</a>
+
+            <br><br> <!-- formatting linebreak-->
+
+        </div>  <!-- close get in touch -->
+    </div>  <!-- close contact bar -->
+
+
+    <div class="container" id="header">
+        <div class="row" id="about me">
+            <hr>
+            <!-- left column: portrait image and position titles-->
+            <div class="col-md-4" >
+                <img id="portrait" src="compressed cv photo.jpg" alt="CV Portrait" height="200"><br>
+
+                <h3 id="position"> <br>Junior Python Developer<br>
+                    Candidate Architectural Technologist</h3>
+            </div>
+
+
+            <!-- right column: bio paragraph-->
+            <div class="col-md-7" id="bio">
+                <p>
+                    I am a motivated Bachelor of Architectural Sciences graduate looking to break into the field of
+                    tech and all that is software engineering.<br>With a background in architectural science & technology
+                    as well as 5+ years of administrative assistance, I have developed a passion for problem-solving
+                    on a large scale with a critical focus on the detail scale.<br><br>I value functionality, affordability
+                    and simplicity while also prioritising client needs in a tasteful and presentable manner.<br>I look
+                    forward to the opportunity to amalgamate my diverse skill-set and values to serve as an eager asset
+                    to a like-minded team of developers.
+                </p>
+
+            </div>
+        </div>
     </div>
 
-            <div id="links">
-                    <h3>Links:</h3>
-                    <!--unordered list of accomplishments and responsibilities-->
-                    <ul>
-                        <li>
-                            <b>Github:</b><br>
-                            <a href="https://github.com/mmolefe00" target="_blank">My GitHub Profile</a><br>
-                            <!--still a work in the making but projects will soon be added-->
-                        </li>
-                        <li>
-                            <b>ZATM:</b><br>
-                            <a href="https://zatm.tech/" target="_blank">zatm.tech</a>
-                        </li>
 
-                    </ul>
+    <div class="container" id="content">
+
+        <br><hr><br> <!-- horizontal break -->
+
+        <div class="row" id="education">
+            <h2>Education:<br><br></h2>
+
+            <div class="col-md-4">
+                <h4 style="color: grey;">2018 <br><br></h4>
+                <h4>Trinityhouse High School Little Falls</h4>
+                - National Senior Certificate<br>
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: grey;">2022 <br><br></h4>
+                <h4>University of Cape Town</h4>
+                - Bachelor of Architectural Studies<br>
+
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: grey;">2023 <br><br></h4>
+                <h4>HyperionDev</h4>
+                - Software Engineering Bootcamp Certificate<br>
+            </div>
+
+        </div>  <!-- close education -->
+
+        <br><hr><br> <!-- horizontal break-->
+
+        <div class="row" id="work experience">
+            <h2>Work Experience: <br><br></h2>
+
+            <div class="col-md-6" id="matentjie">
+                <h4>Matentjie Consulting Services: 2017 - 2023</h4>
+
+                <!--unordered list of responsibilities -->
+                <ul>
+                    <li> Part-time administrative and clerical work<br></li>
+                    <li> COVID-19 compliance officer<br></li>
+                    <li> Digital Migration<br></li>
+                    <li> Corporate Report Collation<br></li>
+                    <li> Social Media Management<br></li>
+                    <li> Tax administration assistance</li>
+                </ul>
+            </div>  <!-- close matentjie-->
+
+            <div class="col-md-6" id="zatm">
+                <h4>ZATM: 2021 - 2023</h4>
+
+                <!--unordered list of accomplishments and responsibilities-->
+                <ul>
+                    <li> 1 of 3 Black, Female Co-Founders<br></li>
+                    <li> Curated Pitch Deck Presentations in StartUp Grind 2021 Pitch Slam<br></li>
+                    <li> Figma App Front-End Maquette<br></li>
+                    <li> Competed in EDHE 2022 Intervarsity Pitch Competition<br></li>
+                    <li> Placed Top 15 in Allan Gray 2022 InnovaPitch Jamboree<br></li>
+                    <li> Social Media Management<br><br></li>
+                </ul>
+            </div>  <!-- close zatm-->
+
+        </div>  <!-- close work experience-->
+
+        <br><hr><br> <!-- horizontal break -->
+
+        <div id="skills and comp">
+
+            <div class="row" id="S-Eng skills">
+                <h2>Software Engineering Proficiency:<br><br></h2>
+
+                <div class="col-md-2" id="Python">
+                    <h4>Python: </h4>
+                    <br><br>
+                    <img src="python icon.png" alt="Python Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
                 </div>
-        </section>
 
-        <aside>
-            <hr> <!--horizontal rule to separate sections-->
-            <h2 id="about">About Me: </h2>
-            <p>
-                I am a motivated Bachelor of Architectural Sciences graduate looking to break into the field of
-                tech and all that is software engineering.<br>With a background in architectural science & technology
-                as well as 5+ years of administrative assistance, I have developed a passion for problem-solving
-                on a large scale with a critical focus on the detail scale.<br><br>I value functionality, affordability
-                and simplicity while also prioritising client needs in a tasteful and presentable manner.<br>I look
-                forward to the opportunity to amalgamate my diverse skill-set and values to serve as an eager asset
-                to a like-minded team of developers.
-            </p>
+                <div class="col-md-2" id="OOP in Python">
+                    <h4>OOP in Python: </h4>
+                    <br><br>
+                    <img src="oop icon.png" alt="OOP Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-            <br>
+                <div class="col-md-2" id="SQL">
+                    <h4>SQL: </h4>
+                    <br><br>
+                    <img src="sql icon.png" alt="SQL Icon" >
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
 
-            <h2>Skills and Competencies:</h2>
-            <div id="skills-and-comp">
+                <div class="col-md-2" id="SQLite">
+                    <h4>SQLite: </h4>
+                    <br><br>
+                    <img src="sqlite icon.png" alt="SQLite Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                <h3 style="font-family: 'Helvetica', cursive; font-weight: normal;">Software Engineering Proficiency:</h3>
+                <div class="col-md-2" id="HTML">
+                    <h4>HTML: </h4>
+                    <br><br>
+                    <img src="html icon.png" alt="HTML Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                    <table>
-                        <!-- Header Row of software titles in bold text. Also aligned to middle of column -->
-                        <thead>
-                            <tr>
-                            <th><b>Python: </b></th>
-                            <th><b>OOP in Python: </b></th>
-                            <th><b>SQL: </b></th>
-                            <th><b>SQLite: </b></th>
-                            <th><b>HTML: </b></th>
-                            <th><b>CSS: </b></th>
-                            <th><b>Bootstrap: </b></th>
-                            <th><b>Docker: </b></th>
-                            <th><b>Django: </b></th>
-                            <th><b>NLP: </b></th>
-                            <th><b>Git: </b></th>
-                            <th><b>Github: </b></th>
-                        </tr>
-                    </thead>
-                        <!--
-                        Row of software icons with alt text and consistent height throughout all images for formatting.
-                        Also used <th> instead of <td> to align images to centre of its column.
-                        -->
-                    <tbody>
-                        <tr>
-                            <th><br><img src="python icon.png" alt="Python Icon" ><br></th>
-                            <th><br><img src="oop icon.png" alt="OOP Icon" ></th>
-                            <th><br><img src="sql icon.png" alt="SQL Icon" ></th>
-                            <th><br><img src="sqlite icon.png" alt="SQLite Icon" ></th>
-                            <th><br><img src="html icon.png" alt="HTML Icon" ></th>
-                            <th><br><img src="css icon.png" alt="CSS Icon" ></th>
-                            <th><br><img src="bootstrap icon.png" alt="Bootstrap Icon"></th>
-                            <th><br><img src="docker icon.png" alt="Docker Icon" ></th>
-                            <th><br><img src="django icon.jpg" alt="Django Icon" ></th>
-                            <th><br><img src="nlp icon.png" alt="NLP Icon" ></th>
-                            <th><br><img src="git icon.png" alt="Git Icon" ></th>
-                            <th><br><img src="github icon.png" alt="Git hub Icon" ></th>
-                        </tr>
+                <div class="col-md-2" id="CSS">
+                    <h4>CSS: </h4>
+                    <br><br>
+                    <img src="css icon.png" alt="CSS Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                        <!--
-                        Row of Progress bars showing proficiency of each software.
-                        This also spaces the table elements according to the consistent length of the progress bars - neatness
-                        -->
-                        <tr>
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- python -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- oop -->
-                            <td><br><progress value="3" max="5"></progress></td>  <!-- sql -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- sqlite -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- html -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- css -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- bootstrap -->
-                            <td><br><progress value="2" max="5"></progress></td>  <!-- docker -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- django -->
-                            <td><br><progress value="3" max="5"></progress></td>  <!-- nlp -->
-                            <td><br><progress value="3" max="5"></progress></td>  <!-- git -->
-                            <td><br><progress value="4" max="5"></progress></td>  <!-- github -->
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="col-md-2" id="Bootstrap">
+                    <h4>Bootstrap: </h4>
+                    <br><br>
+                    <img src="bootstrap icon.png" alt="Bootstrap Icon">
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                <br>
+                <div class="col-md-2" id="Docker">
+                    <h4>Docker: </h4>
+                    <br><br>
+                    <img src="docker icon.png" alt="Docker Icon" >
+                    <br><br>
+                    <progress value="2" max="5"></progress>
+                    <br><br>
+                </div>
 
-                <h3 style="font-family: 'Helvetica', cursive; font-weight: normal;">Architecture Software Proficiency:</h3>
-                    <table>
-                        <!-- Header Row of software titles in bold text. Also aligned to middle of column -->
-                        <thead>
-                            <tr>
-                                <th><b>Autodesk Revit:</b></th>
-                                <th><b>Autocad: </b></th>
-                                <th><b>SketchUp: </b></th>
-                                <th><b>Indesign: </b></th>
-                                <th><b>Photoshop: </b></th>
-                                <th><b>Canva: </b></th>
-                                <th><b>Figma: </b></th>
-                                <th><b>Office: </b></th>
-                                <th><b>Mac OSX: </b></th>
-                                <th><b>Windows: </b></th>
-                            </tr>
-                        </thead>
+                <div class="col-md-2" id="Django">
+                    <h4>Django: </h4>
+                    <br><br>
+                    <img src="django icon.jpg" alt="Django Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                        <tbody>
-                    <!--
-                    Row of software icons with alt text and consistent height throughout all images for formatting.
-                     Also used <th> instead of <td> to align images to centre of its column.
-                    -->
-                            <tr>
-                                <th><br><img src="Revit Icon.jpg" alt="Revit Icon"></th>
-                                <th><br><img src="Autocad Icon.jpg" alt="Autocad Icon" ></th>
-                                <th><br><img src="Sketchup Icon.png" alt="Sketchup Icon" ></th>
-                                <th><br><img src="Indesign Icon.png" alt="Indesign Icon" ></th>
-                                <th><br><img src="Photoshop Icon.png" alt="Photoshop Icon" ></th>
-                                <th><br><img src="canva icon.png" alt="Canvas Icon" ></th>
-                                <th><br><img src="Figma Icon.png" alt="Revit Icon"></th>
-                                <th><br><img src="office 365 icon.png" alt="Office 365 Icon" ></th>
-                                <th><br><img src="Mac Icon.png" alt="Mac Icon"></th>
-                                <th><br><img src="Windows Icon.png" alt="Windows Icon"></th>
-                            </tr>
+                <div class="col-md-2" id="NLP">
+                    <h4>NLP: </h4>
+                    <br><br>
+                    <img src="nlp icon.png" alt="NLP Icon" >
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
 
-                            <!--
-                            Row of Progress bars showing proficiency of each software.
-                            This also spaces the table elements according to the consistent length of the progress bars - neatness
-                            -->
-                            <tr>
-                                <td><br><progress value="4" max="5"></progress></td>
-                                <td><br><progress value="4" max="5"></progress></td>
-                                <td><br><progress value="4" max="5"></progress></td>
-                                <td><br><progress value="4" max="5"></progress></td>
-                                <td><br><progress value="3" max="5"></progress></td>
-                                <td><br><progress value="3" max="5"></progress></td>
-                                <td><br><progress value="3" max="5"></progress></td>
-                                <td><br><progress value="4" max="5"></progress></td>
-                                <td><br><progress value="5" max="5"></progress></td>
-                                <td><br><progress value="5" max="5"></progress></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-md-2" id="Git">
+                    <h4>Git: </h4>
+                    <br><br>
+                    <img src="git icon.png" alt="Git Icon" >
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
 
-                <br><br>
+                <div class="col-md-2" id="Github">
+                    <h4>Github: </h4>
+                    <br><br>
+                    <img src="github icon.png" alt="Git hub Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
             </div>
 
-            <div id="work-exp">
+            <br><hr><br>
 
-                <h2 id="we-heading">Work Experience:</h2>
+            <div class="row" id="Archi skills">
+                <h2>Architecture Software Proficiency:<br><br></h2>
 
-                <table id="we-details">
-                    <tbody>
-                    <tr>
-                        <td><h3>Matentjie Consulting Services: 2017 - 2023</h3></td>
-                        <td><h3>ZATM: 2021 - 2023</h3></td>
-                    </tr>
+                <div class="col-md-2" id="Autodesk Revit">
+                    <h4>Autodesk Revit:</h4>
+                    <br><br>
+                    <img src="Revit Icon.jpg" alt="Revit Icon">
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
+                <div class="col-md-2" id="Autocad">
+                    <h4>Autocad: </h4>
+                    <br><br>
+                    <img src="Autocad Icon.jpg" alt="Autocad Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                    <tr>
-                        <td>
-                            <!--unordered list of responsibilities -->
-                            <ul>
-                                <li> Part-time administrative and clerical work<br></li>
-                                <li> COVID-19 compliance officer<br></li>
-                                <li> Digital Migration<br></li>
-                                <li> Corporate Report Collation<br></li>
-                                <li> Social Media Management<br></li>
-                                <li> Tax administration assistance<br><br></li>
-                            </ul>
-                        </td>
+                <div class="col-md-2" id="SketchUp">
+                    <h4>SketchUp: </h4>
+                    <br><br>
+                    <img src="Sketchup Icon.png" alt="Sketchup Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
 
-                        <td>
-                            <!--unordered list of accomplishments and responsibilities-->
-                            <ul>
-                                <li> 1 of 3 Black, Female Co-Founders<br></li>
-                                <li> Curated Pitch Deck Presentations in StartUp Grind 2021 Pitch Slam<br></li>
-                                <li> Figma App Front-End Maquette<br></li>
-                                <li> Competed in EDHE 2022 Intervarsity Pitch Competition<br></li>
-                                <li> Placed Top 15 in Allan Gray 2022 InnovaPitch Jamboree<br></li>
-                                <li> Social Media Management<br><br></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div class="col-md-2" id="Indesign">
+                    <h4>Indesign: </h4>
+                    <br><br>
+                    <img src="Indesign Icon.png" alt="Indesign Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Photoshop">
+                    <h4>Photoshop: </h4>
+                    <br><br>
+                    <img src="Photoshop Icon.png" alt="Photoshop Icon" >
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Canva">
+                    <h4>Canva: </h4>
+                    <br><br>
+                    <img src="canva icon.png" alt="Canvas Icon" >
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Figma">
+                    <h4>Figma: </h4>
+                    <br><br>
+                    <img src="Figma Icon.png" alt="Revit Icon">
+                    <br><br>
+                    <progress value="3" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Office">
+                    <h4>Office: </h4>
+                    <br><br>
+                    <img src="office 365 icon.png" alt="Office 365 Icon" >
+                    <br><br>
+                    <progress value="4" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Mac OSX">
+                    <h4>Mac OSX: </h4>
+                    <br><br>
+                    <img src="Mac Icon.png" alt="Mac Icon">
+                    <br><br>
+                    <progress value="5" max="5"></progress>
+                    <br><br>
+                </div>
+
+                <div class="col-md-2" id="Windows ">
+                    <h4>Windows: </h4>
+                    <br><br>
+                    <img src="Windows Icon.png" alt="Windows Icon">
+                    <br><br>
+                    <progress value="5" max="5"></progress>
+                    <br><br>
+                </div>
+
             </div>
 
-            <hr> <!--horizontal rule to separate sections-->
+        </div>  <!-- close skills and comp -->
 
-        </aside>
-    </div>
-
+    </div>  <!-- close content -->
 </body>
 </html>
